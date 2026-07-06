@@ -44,110 +44,29 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-surface">
       {/* TIH ↔ Operation Dronagiri connection banner */}
-      <header className="hero-gradient border-b border-white/10">
-        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-center max-w-3xl mx-auto mb-8 lg:mb-10"
-          >
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/20 text-accent text-xs font-semibold border border-accent/30">
-              <GiMountainCave className="w-3.5 h-3.5" /> Government of India Initiative
-            </span>
-            <h1 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-tight">
-              Technology Innovation Hub powers Operation Dronagiri
-            </h1>
-            <p className="mt-3 text-slate-300 text-sm sm:text-base leading-relaxed">
-              {tih.relationship}
-            </p>
-          </motion.div>
-
-          {/* TIH ↔ OD bridge — equal columns, centered */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.08 }}
-            className="max-w-5xl mx-auto mb-8 lg:mb-10"
-          >
-            <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-4 md:gap-5 items-stretch">
-              <a
-                href={tih.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex flex-col h-full min-h-[168px] p-5 sm:p-6 rounded-2xl bg-white/10 border border-white/20 backdrop-blur-sm hover:bg-white/15 hover:border-accent/40 transition-all group text-left"
-              >
-                <div className="flex items-start justify-between gap-3 mb-4">
-                  <div className="w-11 h-11 rounded-xl bg-accent/20 flex items-center justify-center shrink-0">
-                    <HiOutlineChip className="w-6 h-6 text-accent" />
-                  </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-accent bg-accent/10 px-2 py-1 rounded-full">
-                    {tih.shortName}
-                  </span>
-                </div>
-                <h2 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-accent transition-colors">
-                  {tih.name}
-                </h2>
-                <p className="text-slate-300 text-sm mt-2 flex-1 leading-relaxed">{tih.tagline}</p>
-                <span className="inline-flex items-center gap-1.5 text-xs font-medium text-accent mt-4 pt-4 border-t border-white/10">
-                  Visit TIH website <FiExternalLink className="w-3.5 h-3.5" />
-                </span>
-              </a>
-
-              <div className="flex md:flex-col items-center justify-center gap-2 py-2 md:py-0 md:px-1">
-                <div className="hidden md:block w-px flex-1 min-h-[24px] bg-gradient-to-b from-transparent via-accent/50 to-transparent" />
-                <div className="w-10 h-10 rounded-full bg-accent/20 border border-accent/40 flex items-center justify-center shrink-0">
-                  <FiArrowRight className="w-5 h-5 text-accent md:rotate-0 rotate-90" />
-                </div>
-                <span className="text-[10px] text-accent font-bold uppercase tracking-widest">Powers</span>
-                <div className="hidden md:block w-px flex-1 min-h-[24px] bg-gradient-to-b from-transparent via-accent/50 to-transparent" />
-              </div>
-
-              <a
-                href={hero.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex flex-col h-full min-h-[168px] p-5 sm:p-6 rounded-2xl bg-white/10 border border-accent/30 backdrop-blur-sm hover:bg-white/15 hover:border-accent/50 transition-all group text-left"
-              >
-                <div className="flex items-start justify-between gap-3 mb-4">
-                  <div className="w-11 h-11 rounded-xl bg-accent/20 flex items-center justify-center shrink-0">
-                    <HiOutlineGlobe className="w-6 h-6 text-accent" />
-                  </div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-accent bg-accent/10 px-2 py-1 rounded-full">
-                    Mission
-                  </span>
-                </div>
-                <h2 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-accent transition-colors">
-                  {hero.title}
-                </h2>
-                <p className="text-slate-300 text-sm mt-2 flex-1 leading-relaxed line-clamp-3">{hero.subtitle}</p>
-                <span className="inline-flex items-center gap-1.5 text-xs font-medium text-accent mt-4 pt-4 border-t border-white/10">
-                  Visit mission portal <FiExternalLink className="w-3.5 h-3.5" />
-                </span>
-              </a>
-            </div>
-          </motion.div>
-
-          <p className="max-w-4xl mx-auto text-center text-slate-200 text-sm leading-relaxed mb-10 px-2">
-            {tih.connection}
-          </p>
+      <header className="bg-white border-b border-slate-200">
+        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+          {/* Main Hero Header Removed per user request */}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 }}
-            className="max-w-6xl mx-auto space-y-4"
+            className="max-w-6xl mx-auto space-y-6"
           >
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 gap-6">
               {[
                 { icon: FiTarget, title: 'Mission', content: about.mission },
                 { icon: FiEye, title: 'Vision', content: about.vision },
               ].map((card) => (
-                <div key={card.title} className="p-5 rounded-2xl bg-white/5 border border-white/10 h-full">
-                  <div className="flex items-center gap-2 mb-3">
-                    <card.icon className="w-4 h-4 text-accent shrink-0" />
-                    <h3 className="font-semibold text-white text-sm">{card.title}</h3>
+                <div key={card.title} className="p-6 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-md transition-shadow h-full">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-xl bg-secondary/10 flex items-center justify-center shrink-0">
+                      <card.icon className="w-5 h-5 text-secondary" />
+                    </div>
+                    <h3 className="font-bold text-primary text-base">{card.title}</h3>
                   </div>
-                  <p className="text-slate-300 text-xs leading-relaxed">{card.content}</p>
+                  <p className="text-slate-600 text-sm leading-relaxed">{card.content}</p>
                 </div>
               ))}
             </div>
@@ -155,10 +74,10 @@ export default function Home() {
               {about.nationalImpact.slice(0, 3).map((item) => (
                 <div
                   key={item.label}
-                  className="px-4 py-5 rounded-2xl bg-white/10 border border-white/10 text-center"
+                  className="px-5 py-6 rounded-2xl bg-white border border-slate-100 shadow-sm text-center"
                 >
-                  <div className="text-xl sm:text-2xl font-bold text-accent">{item.value}</div>
-                  <div className="text-[11px] text-slate-300 mt-1 leading-snug">{item.label}</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-secondary mb-1">{item.value}</div>
+                  <div className="text-xs font-medium text-slate-500 uppercase tracking-wide">{item.label}</div>
                 </div>
               ))}
             </div>
