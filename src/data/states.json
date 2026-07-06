@@ -1,0 +1,132 @@
+[
+  {
+    "id": "maharashtra",
+    "name": "Maharashtra",
+    "code": "MH",
+    "capital": "Mumbai",
+    "lat": 19.7515,
+    "lng": 75.7139,
+    "startupCount": 7,
+    "projectsRunning": 11,
+    "description": "Maharashtra leads Dronagiri's western innovation corridor with agri-tech hubs in Pune-Nashik and logistics centers in Mumbai.",
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80",
+    "projects": ["Smart Highway Monitoring", "Crop Yield Prediction ML", "Forest Cover GIS", "Dam Safety CSS"],
+    "startups": ["AgriSense AI", "CropGuard", "LogiTrack Pro", "FarmConnect", "RouteOptima", "GreenHarvest", "SoilSense"],
+    "partners": [],
+    "impactMetrics": [
+      { "label": "Farmers Reached", "value": "85K+" },
+      { "label": "KM Highways Monitored", "value": "500" },
+      { "label": "Agri Startups", "value": "5" }
+    ]
+  },
+  {
+    "id": "karnataka",
+    "name": "Karnataka",
+    "code": "KA",
+    "capital": "Bengaluru",
+    "lat": 15.3173,
+    "lng": 75.7139,
+    "startupCount": 6,
+    "projectsRunning": 9,
+    "description": "India's tech capital drives ML research, skilling platforms, and urban mobility innovation for Dronagiri.",
+    "image": "https://images.unsplash.com/photo-1596176530734-9fce5a1ee1b3?w=800&q=80",
+    "projects": ["Skill Matching AI", "Urban Mobility GIS", "Fleet Intelligence ML", "Building Energy CSS"],
+    "startups": ["SkillForge", "LearnPath", "DataHarvest", "MobilityHub", "EduBridge"],
+    "partners": [],
+    "impactMetrics": [
+      { "label": "Youth Skilled", "value": "75K+" },
+      { "label": "Daily Commuters", "value": "2L+" },
+      { "label": "Lab Projects", "value": "4" }
+    ]
+  },
+  {
+    "id": "telangana",
+    "name": "Telangana",
+    "code": "TG",
+    "capital": "Hyderabad",
+    "lat": 18.1124,
+    "lng": 79.0193,
+    "startupCount": 5,
+    "projectsRunning": 8,
+    "description": "Telangana hosts Dronagiri's GIS command center and infrastructure CSS monitoring headquarters.",
+    "image": "https://images.unsplash.com/photo-1599669454699-248893623440?w=800&q=80",
+    "projects": ["State GIS Portal", "Bridge Health CSS", "Aquifer Mapping GIS", "Digital Twin Lab"],
+    "startups": ["GeoVision", "InfraWatch", "AquaMap", "CityPulse", "MapLogic"],
+    "partners": [],
+    "impactMetrics": [
+      { "label": "Cities Mapped", "value": "8" },
+      { "label": "Bridges Monitored", "value": "120" },
+      { "label": "Assets Digitized", "value": "15K+" }
+    ]
+  },
+  {
+    "id": "gujarat",
+    "name": "Gujarat",
+    "code": "GJ",
+    "capital": "Gandhinagar",
+    "lat": 22.2587,
+    "lng": 71.1924,
+    "startupCount": 4,
+    "projectsRunning": 7,
+    "description": "Gujarat pioneers agricultural IoT, port logistics optimization, and solar-agri integration pilots.",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+    "projects": ["Port Logistics ML", "Cotton Crop GIS", "Solar Farm CSS", "Rural Connectivity CSS"],
+    "startups": ["PortLink", "CottonTech", "SolarFarm AI", "TradeRoute"],
+    "partners": [],
+    "impactMetrics": [
+      { "label": "Port Throughput Gain", "value": "25%" },
+      { "label": "Cotton Farmers", "value": "5K+" },
+      { "label": "Rural Roads Assessed", "value": "3,200 KM" }
+    ]
+  },
+  {
+    "id": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "code": "AP",
+    "capital": "Vizianagaram",
+    "lat": 18.1067,
+    "lng": 83.3956,
+    "startupCount": 0,
+    "projectsRunning": 6,
+    "description": "Vizianagaram serves as the corporate partnership hub for Operation Dronagiri, hosting all nine geospatial, wireless, and technology partners driving GIS and CSS innovation.",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+    "projects": ["State GIS Portal", "Aquifer Mapping GIS", "Forest Cover GIS", "Bridge Health CSS"],
+    "startups": [],
+    "partners": [
+      "Trinetra Wireless",
+      "Magnasoft Consulting India Pvt. Ltd",
+      "Hexagon",
+      "Trimble Technology Solutions",
+      "AimLocate",
+      "Dhelivery",
+      "BhoomiSeva HCF Tech Services Pvt. Ltd",
+      "AxelSpace Corporation",
+      "WX-One"
+    ],
+    "impactMetrics": [
+      { "label": "Corporate Partners", "value": "9" },
+      { "label": "GIS Projects", "value": "6" },
+      { "label": "CSS Projects", "value": "8" }
+    ]
+  },
+  {
+    "id": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "code": "TN",
+    "capital": "Chennai",
+    "lat": 11.1271,
+    "lng": 78.6569,
+    "startupCount": 2,
+    "projectsRunning": 5,
+    "description": "Tamil Nadu focuses on manufacturing skilling, coastal infrastructure, and metro GIS projects.",
+    "image": "https://images.unsplash.com/photo-1583417319070-4a3ad81c7e87?w=800&q=80",
+    "projects": ["Coastal Erosion DEM", "Chennai Metro GIS", "Manufacturing Skills CSS"],
+    "startups": ["CoastalGuard", "MfgSkills"],
+    "partners": [],
+    "impactMetrics": [
+      { "label": "Coastline Protected", "value": "200 KM" },
+      { "label": "Workers Certified", "value": "8.5K" },
+      { "label": "Metro Assets Mapped", "value": "45 KM" }
+    ]
+  }
+]

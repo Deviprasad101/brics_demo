@@ -1,0 +1,80 @@
+[
+  {
+    "id": "state-gis-portal",
+    "name": "State GIS Portal",
+    "objective": "Create a comprehensive geospatial data portal covering land records, infrastructure, and utilities for Telangana.",
+    "technology": ["ArcGIS Enterprise", "OpenLayers", "PostgreSQL", "GeoServer"],
+    "location": "Telangana",
+    "state": "Telangana",
+    "lat": 17.385,
+    "lng": 78.4867,
+    "outcomes": "Digitized 8 cities with 15,000+ infrastructure assets mapped and accessible to planners.",
+    "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80",
+    "sector": "Transportation & Infrastructure"
+  },
+  {
+    "id": "urban-mobility-gis",
+    "name": "Urban Mobility GIS",
+    "objective": "GIS-based transit network analysis and accessibility mapping for Bengaluru's multimodal transport system.",
+    "technology": ["QGIS", "GTFS", "Mapbox", "React"],
+    "location": "Karnataka",
+    "state": "Karnataka",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "outcomes": "Reduced average commute planning time by 22% for 2 lakh daily commuters.",
+    "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&q=80",
+    "sector": "Transportation & Infrastructure"
+  },
+  {
+    "id": "cotton-crop-gis",
+    "name": "Cotton Crop GIS",
+    "objective": "Spatial crop monitoring and mandi mapping for cotton supply chain optimization in Gujarat.",
+    "technology": ["Google Earth Engine", "NDVI Analysis", "Leaflet", "Python"],
+    "location": "Gujarat",
+    "state": "Gujarat",
+    "lat": 21.1702,
+    "lng": 72.8311,
+    "outcomes": "Improved cotton price realization by 22% for 5,000 farmers through transparent grading.",
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80",
+    "sector": "Agriculture"
+  },
+  {
+    "id": "chennai-metro-gis",
+    "name": "Chennai Metro GIS",
+    "objective": "Geospatial asset management system for Chennai Metro rail network and station facilities.",
+    "technology": ["ArcGIS Pro", "FME", "SQL Server", "Power BI"],
+    "location": "Tamil Nadu",
+    "state": "Tamil Nadu",
+    "lat": 13.0827,
+    "lng": 80.2707,
+    "outcomes": "Digitized 45 km metro corridor with real-time asset tracking and maintenance scheduling.",
+    "image": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=600&q=80",
+    "sector": "Transportation & Infrastructure"
+  },
+  {
+    "id": "aquifer-mapping",
+    "name": "Aquifer Mapping GIS",
+    "objective": "Groundwater aquifer delineation and recharge zone mapping using hydrogeological GIS analysis.",
+    "technology": ["QGIS", "Hydrogeology", "Remote Sensing", "GRACE Data"],
+    "location": "Telangana",
+    "state": "Telangana",
+    "lat": 17.9689,
+    "lng": 79.5941,
+    "outcomes": "Mapped 500 sq km of aquifers benefiting 20,000 farmers in semi-arid regions.",
+    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80",
+    "sector": "Agriculture"
+  },
+  {
+    "id": "forest-cover-gis",
+    "name": "Forest Cover Change GIS",
+    "objective": "Temporal forest cover change detection and carbon sequestration mapping for sustainability reporting.",
+    "technology": ["Google Earth Engine", "Landsat", "Classification", "R"],
+    "location": "Maharashtra",
+    "state": "Maharashtra",
+    "lat": 19.7515,
+    "lng": 73.7898,
+    "outcomes": "Monitored 12,000 sq km of forest cover with annual change reports for policy makers.",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80",
+    "sector": "Agriculture"
+  }
+]

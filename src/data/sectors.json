@@ -1,0 +1,62 @@
+[
+  {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "slug": "agriculture",
+    "tagline": "Precision farming for national food security",
+    "description": "Operation Dronagiri's Agriculture vertical deploys AI, IoT, and satellite analytics to transform India's farming landscape — from crop disease detection to smart irrigation and supply chain optimization.",
+    "overview": "India's 140 million farmers face productivity, water, and market access challenges. Dronagiri connects agri-tech startups with corporate partners and state governments to deploy solutions at scale across pilot corridors.",
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
+    "impactMetrics": [
+      { "label": "Farmers Impacted", "value": "2.5L+" },
+      { "label": "Acres Monitored", "value": "50K+" },
+      { "label": "Yield Improvement", "value": "35%" },
+      { "label": "Active Startups", "value": "10" }
+    ],
+    "successStories": [
+      { "title": "32% Crop Loss Reduction", "desc": "AgriSense AI deployed across 12,000 Nashik farms.", "startup": "AgriSense AI" },
+      { "title": "2.3B Liters Water Saved", "desc": "GreenHarvest smart irrigation across 6,200 farms.", "startup": "GreenHarvest" }
+    ],
+    "color": "from-emerald-600 to-teal-700"
+  },
+  {
+    "id": "livelihood-skilling",
+    "name": "Livelihood & Skilling",
+    "slug": "livelihood-skilling",
+    "tagline": "Building India's future workforce",
+    "description": "The Livelihood vertical bridges India's skills gap through vernacular EdTech, vocational training, gig economy platforms, and women entrepreneurship programs.",
+    "overview": "With 12 million annual job seekers and only 5% formally trained, Dronagiri's skilling initiatives align talent with industry needs while empowering rural and semi-urban communities.",
+    "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+    "impactMetrics": [
+      { "label": "People Skilled", "value": "1.8L+" },
+      { "label": "Jobs Created", "value": "12K+" },
+      { "label": "Placement Rate", "value": "68%" },
+      { "label": "Active Startups", "value": "5" }
+    ],
+    "successStories": [
+      { "title": "45,000 Youth Skilled", "desc": "SkillForge achieved 68% placement within 6 months.", "startup": "SkillForge" },
+      { "title": "2,800 Women Entrepreneurs", "desc": "HeroLance generated ₹45 Cr combined revenue.", "startup": "HeroLance" }
+    ],
+    "color": "from-violet-600 to-indigo-700"
+  },
+  {
+    "id": "transportation-infrastructure",
+    "name": "Transportation & Infrastructure",
+    "slug": "transportation-infrastructure",
+    "tagline": "Smart mobility and resilient infrastructure",
+    "description": "From logistics optimization to GIS mapping and structural health monitoring, this vertical transforms India's transportation and infrastructure through deep-tech innovation.",
+    "overview": "Dronagiri deploys smart highways, urban mobility platforms, port logistics AI, and geospatial intelligence across five pilot state corridors with corporate and government collaboration.",
+    "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
+    "impactMetrics": [
+      { "label": "KM Mapped", "value": "15K+" },
+      { "label": "Logistics Savings", "value": "28%" },
+      { "label": "Structures Monitored", "value": "620+" },
+      { "label": "Active Startups", "value": "9" }
+    ],
+    "successStories": [
+      { "title": "8 Smart Cities Mapped", "desc": "GeoVision digitized 15,000 infrastructure assets.", "startup": "GeoVision" },
+      { "title": "40% Port Dwell Reduction", "desc": "PortLink optimized Mundra and Kandla operations.", "startup": "PortLink" }
+    ],
+    "color": "from-secondary to-primary"
+  }
+]

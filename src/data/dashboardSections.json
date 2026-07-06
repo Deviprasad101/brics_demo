@@ -1,0 +1,38 @@
+{
+  "startups": {
+    "badge": "ESS",
+    "title": "Early Stage Startups",
+    "description": "Discover the innovative early-stage startups participating in Operation Dronagiri.",
+    "path": "/startups"
+  },
+  "sectors": {
+    "badge": "SEC",
+    "title": "Focus Sectors",
+    "description": "Three strategic verticals driving innovation across agriculture, skilling, and infrastructure.",
+    "path": "/sectors"
+  },
+  "partners": {
+    "badge": "CP",
+    "title": "Corporate Partners",
+    "description": "Industry leaders collaborating from the Vizianagaram innovation corridor.",
+    "path": "/partners"
+  },
+  "states": {
+    "badge": "PS",
+    "title": "Pilot States",
+    "description": "Innovation corridors powering Operation Dronagiri across India.",
+    "path": "/pilot-states"
+  },
+  "css": {
+    "badge": "CSS",
+    "title": "CSS Initiatives",
+    "description": "Civil structural monitoring and smart infrastructure projects nationwide.",
+    "path": "/css-projects"
+  },
+  "gis": {
+    "badge": "GIS",
+    "title": "GIS Innovations",
+    "description": "Geospatial intelligence projects transforming planning and deployment.",
+    "path": "/gis-projects"
+  }
+}

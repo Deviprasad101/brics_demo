@@ -1,0 +1,105 @@
+{
+  "name": "Operation Dronagiri",
+  "tagline": "National Innovation Mission",
+  "stats": {
+    "startups": 24,
+    "sectors": 3,
+    "partners": 9
+  },
+  "hero": {
+    "title": "Operation Dronagiri",
+    "subtitle": "Empowering Innovation Through Technology, Startups, GIS, and National Deployment Initiatives.",
+    "description": "A Government of India mission fostering deep-tech startups, geospatial intelligence, civil structural monitoring, and nationwide pilot deployments across agriculture, skilling, and infrastructure.",
+    "url": "https://dronagiribharat.com",
+    "ctaStartups": "Explore Startups",
+    "ctaStates": "View Pilot States"
+  },
+  "tih": {
+    "name": "Technology Innovation Hub",
+    "shortName": "TIH",
+    "tagline": "National Deep-Tech Ecosystem Platform",
+    "url": "https://iittnif.com",
+    "connection": "The Technology Innovation Hub (TIH) is the institutional backbone of Operation Dronagiri — providing the infrastructure, corporate partnerships, startup acceleration, and geospatial capabilities that power the mission's nationwide deployment.",
+    "relationship": "TIH hosts the innovation ecosystem; Operation Dronagiri is the national mission that deploys it across pilot states, sectors, and communities."
+  },
+  "about": {
+    "introduction": "Operation Dronagiri is a flagship national innovation ecosystem initiative launched to accelerate technology adoption, startup growth, and pilot deployments across India. Named after the mythical mountain of divine herbs, the mission cultivates innovation that heals and strengthens the nation's critical sectors.",
+    "mission": "To catalyze deep-tech innovation by connecting 24 startups with 9 corporate partners across pilot states, deploying GIS and CSS capabilities, and building a self-sustaining national innovation corridor.",
+    "vision": "To establish India as a global leader in geospatial intelligence, civil infrastructure monitoring, and sector-specific deep-tech solutions that reach every corner of the nation.",
+    "objectives": [
+      "Scale 24 deep-tech startups to national deployment readiness",
+      "Deploy 6 GIS and 8 CSS innovation initiatives across pilot corridors",
+      "Establish innovation labs for ML, DEM, and frontier technology research",
+      "Skill 2 lakh+ citizens through livelihood and vocational programs",
+      "Create sustainable corporate-government-startup collaboration frameworks"
+    ],
+    "strategicFocus": [
+      { "title": "Startup Acceleration", "desc": "End-to-end support from ideation to pilot deployment for 24 selected startups." },
+      { "title": "GIS Intelligence", "desc": "National geospatial data infrastructure for agriculture, urban planning, and infrastructure." },
+      { "title": "CSS Monitoring", "desc": "Civil structural health systems for highways, bridges, dams, and public buildings." },
+      { "title": "Pilot Corridors", "desc": "Five state-level innovation corridors with dedicated resources and partnerships." },
+      { "title": "Lab Innovation", "desc": "R&D labs for machine learning, DEM analysis, and emerging technology validation." },
+      { "title": "Skilling & Livelihood", "desc": "Workforce development aligned with industry needs in pilot state economies." }
+    ],
+    "nationalImpact": [
+      { "label": "Citizens Impacted", "value": "4.3L+" },
+      { "label": "Geographic Coverage", "value": "5 States" },
+      { "label": "Technology Deployments", "value": "37+" },
+      { "label": "Corporate Investment", "value": "₹200 Cr+" },
+      { "label": "Innovation Labs", "value": "12" },
+      { "label": "Partner Institutions", "value": "28+" }
+    ]
+  },
+  "timeline": [
+    { "year": "2021", "title": "Mission Conceived", "description": "NITI Aayog and DST jointly propose Operation Dronagiri as a national deep-tech mission." },
+    { "year": "2022", "title": "Pilot States Identified", "description": "Maharashtra, Karnataka, Telangana, Gujarat, and Tamil Nadu selected as innovation corridors." },
+    { "year": "2022", "title": "First Startup Cohort", "description": "12 startups onboarded across Agriculture and Infrastructure verticals." },
+    { "year": "2023", "title": "GIS Command Center", "description": "National GIS intelligence hub established in Hyderabad with 6 flagship projects." },
+    { "year": "2023", "title": "CSS Initiative Launch", "description": "8 civil structural monitoring projects deployed on highways, bridges, and public infrastructure." },
+    { "year": "2024", "title": "Lab Network Expansion", "description": "Innovation labs for ML, DEM, and frontier tech opened across all pilot states." },
+    { "year": "2025", "title": "National Scale-Up", "description": "24 startups, 9 corporate partners, 37 active projects — mission enters scale-up phase." }
+  ],
+  "ecosystem": [
+    { "id": "startups", "label": "Startups", "count": 24, "icon": "FiUsers", "color": "#00D4FF" },
+    { "id": "partners", "label": "Corporate Partners", "count": 9, "icon": "FiBriefcase", "color": "#004AAD" },
+    { "id": "lab", "label": "Lab Projects", "count": 12, "icon": "FiCpu", "color": "#00D4FF" }
+  ],
+  "impact": {
+    "stateCoverage": [
+      { "state": "Maharashtra", "startups": 7, "projects": 11 },
+      { "state": "Karnataka", "startups": 6, "projects": 9 },
+      { "state": "Telangana", "startups": 5, "projects": 8 },
+      { "state": "Gujarat", "startups": 4, "projects": 7 },
+      { "state": "Andhra Pradesh", "startups": 0, "projects": 14 },
+      { "state": "Tamil Nadu", "startups": 2, "projects": 5 }
+    ],
+    "startupGrowth": [
+      { "year": "2022", "count": 12 },
+      { "year": "2023", "count": 18 },
+      { "year": "2024", "count": 22 },
+      { "year": "2025", "count": 24 }
+    ],
+    "sectorImpact": [
+      { "sector": "Agriculture", "value": 35, "metric": "Yield Improvement %" },
+      { "sector": "Livelihood & Skilling", "value": 68, "metric": "Placement Rate %" },
+      { "sector": "Transportation", "value": 28, "metric": "Cost Reduction %" }
+    ],
+    "nationalReach": {
+      "farmers": "2.5L+",
+      "youthSkilled": "1.8L+",
+      "kmMapped": "15,000+",
+      "structuresMonitored": "620+"
+    }
+  },
+  "contact": {
+    "address": "Operation Dronagiri Mission Office, Innovation Tower, Electronic City Phase 1, Bengaluru, Karnataka 560100",
+    "email": "mission@dronagiri.gov.in",
+    "phone": "+91 80 4567 8900",
+    "hours": "Monday – Friday: 9:00 AM – 6:00 PM IST",
+    "social": {
+      "twitter": "https://twitter.com/OpDronagiri",
+      "linkedin": "https://linkedin.com/company/operation-dronagiri",
+      "youtube": "https://youtube.com/@OperationDronagiri"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "machine-learning": [
+    {
+      "id": "crop-yield-prediction",
+      "title": "Crop Yield Prediction ML",
+      "description": "Machine learning models predicting crop yields using satellite imagery, weather data, and historical production records.",
+      "technology": ["TensorFlow", "Python", "Satellite Imagery", "Random Forest"],
+      "applications": ["Agricultural planning", "Insurance underwriting", "Supply chain forecasting"],
+      "images": [
+        "https://images.unsplash.com/photo-1574943329845-75798b8d3d7e?w=600&q=80",
+        "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80"
+      ],
+      "state": "Maharashtra",
+      "lat": 19.7515,
+      "lng": 73.7898
+    },
+    {
+      "id": "fleet-intelligence",
+      "title": "Fleet Intelligence ML",
+      "description": "Predictive maintenance and route optimization for commercial fleets using telematics data and deep learning.",
+      "technology": ["PyTorch", "LSTM", "GPS Telematics", "Apache Spark"],
+      "applications": ["Fleet management", "Predictive maintenance", "Fuel optimization"],
+      "images": [
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80"
+      ],
+      "state": "Karnataka",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    {
+      "id": "port-logistics-ml",
+      "title": "Port Logistics ML",
+      "description": "AI-driven berth scheduling and container flow optimization for major Gujarat ports.",
+      "technology": ["Scikit-learn", "Reinforcement Learning", "IoT", "Docker"],
+      "applications": ["Port operations", "Container tracking", "Trade facilitation"],
+      "images": [
+        "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600&q=80"
+      ],
+      "state": "Gujarat",
+      "lat": 22.8395,
+      "lng": 69.7213
+    },
+    {
+      "id": "skill-matching-ai",
+      "title": "Skill Matching AI",
+      "description": "NLP-powered job-skills matching engine connecting trained youth with regional employment opportunities.",
+      "technology": ["BERT", "NLP", "React", "Node.js"],
+      "applications": ["Job placement", "Skills assessment", "Career guidance"],
+      "images": [
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80"
+      ],
+      "state": "Karnataka",
+      "lat": 12.9352,
+      "lng": 77.6245
+    },
+    {
+      "id": "pest-outbreak-prediction",
+      "title": "Pest Outbreak Prediction",
+      "description": "Early warning system for agricultural pest outbreaks using climate models and historical infestation data.",
+      "technology": ["XGBoost", "Weather APIs", "GIS", "Python"],
+      "applications": ["Crop protection", "Pesticide optimization", "Farm advisory"],
+      "images": [
+        "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80"
+      ],
+      "state": "Maharashtra",
+      "lat": 19.9975,
+      "lng": 73.7898
+    }
+  ],
+  "dem": [
+    {
+      "id": "terrain-analysis",
+      "title": "DEM Terrain Analysis",
+      "description": "Digital Elevation Model analysis for landslide risk assessment and infrastructure planning in Western Ghats.",
+      "technology": ["QGIS", "SRTM DEM", "GDAL", "PostGIS"],
+      "applications": ["Landslide risk mapping", "Highway planning", "Disaster preparedness"],
+      "images": [
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80"
+      ],
+      "state": "Karnataka",
+      "lat": 15.3173,
+      "lng": 75.7139
+    },
+    {
+      "id": "water-resource-dem",
+      "title": "Water Resource DEM",
+      "description": "Watershed modeling and groundwater recharge zone identification using high-resolution DEM data.",
+      "technology": ["ArcGIS", "HEC-HMS", "LiDAR", "Python"],
+      "applications": ["Watershed management", "Groundwater planning", "Irrigation design"],
+      "images": [
+        "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=600&q=80"
+      ],
+      "state": "Telangana",
+      "lat": 17.385,
+      "lng": 78.4867
+    },
+    {
+      "id": "coastal-erosion-dem",
+      "title": "Coastal Erosion DEM",
+      "description": "Temporal DEM differencing for coastal erosion monitoring along Tamil Nadu's eastern coastline.",
+      "technology": ["ENVI", "Sentinel-1", "DEM Differencing", "MATLAB"],
+      "applications": ["Coastal protection", "Fishing community safety", "Shoreline management"],
+      "images": [
+        "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=600&q=80"
+      ],
+      "state": "Tamil Nadu",
+      "lat": 11.1271,
+      "lng": 79.815
+    },
+    {
+      "id": "highway-elevation",
+      "title": "Highway Elevation Profiling",
+      "description": "DEM-based elevation profiling for smart highway design and drainage planning across national highways.",
+      "technology": ["AutoCAD Civil 3D", "SRTM", "GRASS GIS", "Python"],
+      "applications": ["Highway design", "Drainage planning", "Flood risk assessment"],
+      "images": [
+        "https://images.unsplash.com/photo-1544627669-701f6429f6b8?w=600&q=80"
+      ],
+      "state": "Maharashtra",
+      "lat": 19.076,
+      "lng": 72.8777
+    }
+  ],
+  "innovation": [
+    {
+      "id": "drone-survey-lab",
+      "title": "Drone Survey Innovation Lab",
+      "description": "UAV-based aerial surveying for precision agriculture, infrastructure inspection, and disaster assessment.",
+      "technology": ["UAV Platforms", "Photogrammetry", "RTK GPS", "Pix4D"],
+      "applications": ["Crop monitoring", "Bridge inspection", "Disaster mapping"],
+      "images": [
+        "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&q=80"
+      ],
+      "state": "Maharashtra",
+      "lat": 18.5204,
+      "lng": 73.8567
+    },
+    {
+      "id": "edge-ai-lab",
+      "title": "Edge AI Innovation Lab",
+      "description": "On-device AI inference for rural connectivity-challenged areas with low-latency decision making.",
+      "technology": ["TensorFlow Lite", "Raspberry Pi", "Coral TPU", "MQTT"],
+      "applications": ["Rural IoT", "Offline AI", "Real-time monitoring"],
+      "images": [
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80"
+      ],
+      "state": "Karnataka",
+      "lat": 12.9141,
+      "lng": 77.6411
+    },
+    {
+      "id": "digital-twin-lab",
+      "title": "Digital Twin Innovation Lab",
+      "description": "Virtual replicas of infrastructure assets for simulation, monitoring, and predictive maintenance.",
+      "technology": ["BIM", "IoT Integration", "Unity3D", "Azure Digital Twins"],
+      "applications": ["Smart cities", "Port operations", "Building management"],
+      "images": [
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80"
+      ],
+      "state": "Telangana",
+      "lat": 17.4435,
+      "lng": 78.3772
+    }
+  ]
+}

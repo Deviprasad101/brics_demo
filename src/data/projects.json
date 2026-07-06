@@ -1,0 +1,217 @@
+{
+  "machine-learning": [
+    {
+      "id": "crop-yield-prediction",
+      "name": "Crop Yield Prediction ML",
+      "description": "Machine learning models predicting crop yields using satellite imagery, weather data, and historical production records across Maharashtra.",
+      "technology": ["TensorFlow", "Python", "Satellite Imagery", "Random Forest"],
+      "image": "https://images.unsplash.com/photo-1574943329845-75798b8d3d7e?w=600&q=80",
+      "state": "Maharashtra",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "fleet-intelligence",
+      "name": "Fleet Intelligence ML",
+      "description": "Predictive maintenance and route optimization for commercial fleets using telematics data and deep learning.",
+      "technology": ["PyTorch", "LSTM", "GPS Telematics", "Apache Spark"],
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80",
+      "state": "Karnataka",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "port-logistics-ml",
+      "name": "Port Logistics ML",
+      "description": "AI-driven berth scheduling and container flow optimization for major Gujarat ports.",
+      "technology": ["Scikit-learn", "Reinforcement Learning", "IoT", "Docker"],
+      "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600&q=80",
+      "state": "Gujarat",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "skill-matching-ai",
+      "name": "Skill Matching AI",
+      "description": "NLP-powered job-skills matching engine connecting trained youth with regional employment opportunities.",
+      "technology": ["BERT", "NLP", "React", "Node.js"],
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80",
+      "state": "Karnataka",
+      "sector": "Livelihood & Skilling"
+    },
+    {
+      "id": "pest-outbreak-prediction",
+      "name": "Pest Outbreak Prediction",
+      "description": "Early warning system for agricultural pest outbreaks using climate models and historical infestation data.",
+      "technology": ["XGBoost", "Weather APIs", "GIS", "Python"],
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80",
+      "state": "Maharashtra",
+      "sector": "Agriculture"
+    }
+  ],
+  "dem": [
+    {
+      "id": "terrain-analysis",
+      "name": "DEM Terrain Analysis",
+      "description": "Digital Elevation Model analysis for landslide risk assessment and infrastructure planning in Western Ghats.",
+      "technology": ["QGIS", "SRTM DEM", "GDAL", "PostGIS"],
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80",
+      "state": "Karnataka",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "water-resource-dem",
+      "name": "Water Resource DEM",
+      "description": "Watershed modeling and groundwater recharge zone identification using high-resolution DEM data.",
+      "technology": ["ArcGIS", "HEC-HMS", "LiDAR", "Python"],
+      "image": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=600&q=80",
+      "state": "Telangana",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "coastal-erosion-dem",
+      "name": "Coastal Erosion DEM",
+      "description": "Temporal DEM differencing for coastal erosion monitoring along Tamil Nadu's eastern coastline.",
+      "technology": ["ENVI", "Sentinel-1", "DEM Differencing", "MATLAB"],
+      "image": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=600&q=80",
+      "state": "Tamil Nadu",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "highway-elevation",
+      "name": "Highway Elevation Profiling",
+      "description": "DEM-based elevation profiling for smart highway design and drainage planning across national highways.",
+      "technology": ["AutoCAD Civil 3D", "SRTM", "GRASS GIS", "Python"],
+      "image": "https://images.unsplash.com/photo-1544627669-701f6429f6b8?w=600&q=80",
+      "state": "Maharashtra",
+      "sector": "Transportation & Infrastructure"
+    }
+  ],
+  "gis": [
+    {
+      "id": "state-gis-portal",
+      "name": "State GIS Portal",
+      "description": "Comprehensive geospatial data portal for Telangana covering land records, infrastructure, and utilities.",
+      "technology": ["ArcGIS Enterprise", "OpenLayers", "PostgreSQL", "GeoServer"],
+      "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80",
+      "state": "Telangana",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "urban-mobility-gis",
+      "name": "Urban Mobility GIS",
+      "description": "GIS-based transit network analysis and accessibility mapping for Bengaluru's multimodal transport system.",
+      "technology": ["QGIS", "GTFS", "Mapbox", "React"],
+      "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&q=80",
+      "state": "Karnataka",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "cotton-crop-gis",
+      "name": "Cotton Crop GIS",
+      "description": "Spatial crop monitoring and mandi mapping for cotton supply chain optimization in Gujarat.",
+      "technology": ["Google Earth Engine", "NDVI Analysis", "Leaflet", "Python"],
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80",
+      "state": "Gujarat",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "chennai-metro-gis",
+      "name": "Chennai Metro GIS",
+      "description": "Geospatial asset management system for Chennai Metro rail network and station facilities.",
+      "technology": ["ArcGIS Pro", "FME", "SQL Server", "Power BI"],
+      "image": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=600&q=80",
+      "state": "Tamil Nadu",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "aquifer-mapping",
+      "name": "Aquifer Mapping GIS",
+      "description": "Groundwater aquifer delineation and recharge zone mapping using hydrogeological GIS analysis.",
+      "technology": ["QGIS", "Hydrogeology", "Remote Sensing", "GRACE Data"],
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80",
+      "state": "Telangana",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "forest-cover-gis",
+      "name": "Forest Cover Change GIS",
+      "description": "Temporal forest cover change detection and carbon sequestration mapping for sustainability reporting.",
+      "technology": ["Google Earth Engine", "Landsat", "Classification", "R"],
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80",
+      "state": "Maharashtra",
+      "sector": "Agriculture"
+    }
+  ],
+  "css": [
+    {
+      "id": "smart-highway-monitoring",
+      "name": "Smart Highway Monitoring",
+      "description": "Civil structural monitoring system for national highways with real-time sensor dashboards.",
+      "technology": ["IoT Sensors", "SCADA", "React Dashboard", "MQTT"],
+      "image": "https://images.unsplash.com/photo-1544627669-701f6429f6b8?w=600&q=80",
+      "state": "Maharashtra",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "infra-css-monitoring",
+      "name": "Infrastructure CSS Monitoring",
+      "description": "Continuous structural health monitoring for government buildings and public infrastructure in Telangana.",
+      "technology": ["Strain Gauges", "Accelerometers", "Cloud IoT", "Grafana"],
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80",
+      "state": "Telangana",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "bridge-health-css",
+      "name": "Bridge Health CSS",
+      "description": "Wireless sensor network for bridge structural integrity monitoring with ML-based anomaly detection.",
+      "technology": ["Wireless Sensors", "Edge Computing", "TensorFlow Lite", "4G LTE"],
+      "image": "https://images.unsplash.com/photo-1519003722824-194d4455e60f?w=600&q=80",
+      "state": "Telangana",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "manufacturing-skills-css",
+      "name": "Manufacturing Skills CSS",
+      "description": "Competency assessment and certification system for manufacturing workforce in Tamil Nadu.",
+      "technology": ["LMS", "AR Training", "Assessment Engine", "Blockchain Certs"],
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+      "state": "Tamil Nadu",
+      "sector": "Livelihood & Skilling"
+    },
+    {
+      "id": "solar-farm-monitoring",
+      "name": "Solar Farm Monitoring CSS",
+      "description": "Structural and performance monitoring for agrivoltaic solar installations in Gujarat.",
+      "technology": ["Solar Sensors", "Performance Analytics", "Drones", "Python"],
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=80",
+      "state": "Gujarat",
+      "sector": "Agriculture"
+    },
+    {
+      "id": "dam-safety-css",
+      "name": "Dam Safety CSS",
+      "description": "Comprehensive dam safety monitoring with seepage, displacement, and reservoir level tracking.",
+      "technology": ["Piezometers", "Total Stations", "GIS", "Alert Systems"],
+      "image": "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?w=600&q=80",
+      "state": "Maharashtra",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "building-energy-css",
+      "name": "Building Energy CSS",
+      "description": "Energy efficiency monitoring and green building certification support for government complexes.",
+      "technology": ["Energy Meters", "BMS", "LEED Standards", "Dashboard"],
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80",
+      "state": "Karnataka",
+      "sector": "Transportation & Infrastructure"
+    },
+    {
+      "id": "rural-connectivity-css",
+      "name": "Rural Connectivity CSS",
+      "description": "Monitoring rural road construction quality and connectivity index for village accessibility.",
+      "technology": ["Mobile GIS", "Quality Sensors", "PMGSY Standards", "Android"],
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80",
+      "state": "Gujarat",
+      "sector": "Transportation & Infrastructure"
+    }
+  ]
+}
