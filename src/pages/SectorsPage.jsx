@@ -38,7 +38,7 @@ export default function SectorsPage() {
                       className="inline-block text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full text-white"
                       style={{ backgroundColor: meta.color }}
                     >
-                      Level {meta.level}
+                      Focus Sector
                     </span>
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-5 text-white">

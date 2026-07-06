@@ -11,7 +11,10 @@
     "solution": "CultYvate delivers data-driven cultivation platforms for yield optimization at scale.",
     "impact": "Active growth-stage deployment across Operation Dronagiri corridors.",
     "website": "https://cultyvate.com",
-    "odSite": null
+    "odSite": null,
+    "pilotCity": "Bengaluru (Jayanagar)",
+    "lat": 12.9293,
+    "lng": 77.5824
   },
   {
     "id": "cyran-ai",
@@ -25,7 +28,10 @@
     "solution": "Cyran AI builds and deploys scalable AI platforms for national mission programs.",
     "impact": "Growth-stage partner in Operation Dronagiri skilling and analytics initiatives.",
     "website": "https://cyran.in",
-    "odSite": null
+    "odSite": null,
+    "pilotCity": "Hyderabad",
+    "lat": 17.385,
+    "lng": 78.4867
   },
   {
     "id": "ekarigari",
@@ -39,7 +45,11 @@
     "solution": "Ekarigari provides integrated farm systems for efficient field operations.",
     "impact": "Scaling across Maharashtra agri-corridors under Operation Dronagiri.",
     "website": "https://www.krishimandi.in",
-    "odSite": null
+    "websiteLabel": "Krishi Mandi",
+    "odSite": null,
+    "pilotCity": "Pune",
+    "lat": 18.5991,
+    "lng": 73.7889
   },
   {
     "id": "scanxt",
@@ -53,7 +63,10 @@
     "solution": "Scanxt delivers advanced scanning and sensing systems for GIS and CSS applications.",
     "impact": "Growth-stage deployments supporting national infrastructure monitoring programs.",
     "website": "https://scanxt.com",
-    "odSite": null
+    "odSite": null,
+    "pilotCity": "Surat",
+    "lat": 21.1702,
+    "lng": 72.8311
   },
   {
     "id": "terraqua-uav",
@@ -67,7 +80,10 @@
     "solution": "TerrAqua UAV provides drone-based surveying and monitoring for land and water assets.",
     "impact": "Scaling UAV operations across coastal and inland pilot corridors.",
     "website": "https://www.terraquauav.com",
-    "odSite": null
+    "odSite": "https://www.terraquauav.com/dronagiri",
+    "pilotCity": "Coimbatore",
+    "lat": 11.0168,
+    "lng": 76.9558
   },
   {
     "id": "garudalytics",
@@ -81,6 +97,9 @@
     "solution": "Garudalytics combines UAV data with analytics for infrastructure and terrain insights.",
     "impact": "Growth-stage geospatial analytics across Karnataka deployment zones.",
     "website": "https://garudalytics.in",
-    "odSite": null
+    "odSite": null,
+    "pilotCity": "Bengaluru",
+    "lat": 12.9141,
+    "lng": 77.6411
   }
 ]
