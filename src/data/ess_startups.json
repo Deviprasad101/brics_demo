@@ -11,7 +11,10 @@
     "solution": "HELIOT.AI delivers AI-powered environmental monitoring and farm intelligence.",
     "impact": "Deployed across pilot farms in Karnataka agri-corridors.",
     "website": "https://heliot.ai",
-    "odSite": null
+    "odSite": "https://heliot.ai/OPR_DRO.html",
+    "pilotCity": "Bengaluru",
+    "lat": 12.9716,
+    "lng": 77.5946
   },
   {
     "id": "bhoomicam",
@@ -25,7 +28,10 @@
     "solution": "BhoomiCam creates unified land-soil digital twins for precision agriculture.",
     "impact": "Mapped 12,000 land parcels in Vizianagaram district.",
     "website": "https://bhoomicam.com",
-    "odSite": "https://www.bhoomicam.com/operation_dronagiri"
+    "odSite": "https://www.bhoomicam.com/operation_dronagiri",
+    "pilotCity": "Vizianagaram",
+    "lat": 18.106659,
+    "lng": 83.395554
   },
   {
     "id": "qhills",
@@ -39,7 +45,10 @@
     "solution": "QHills deploys sensor networks with ML-based landslide prediction.",
     "impact": "Monitoring 120 km of hill roads in Western Ghats corridors.",
     "website": "https://qhills.com",
-    "odSite": null
+    "odSite": null,
+    "pilotCity": "Udhagamandalam",
+    "lat": 11.4102,
+    "lng": 76.695
   },
   {
     "id": "cropgen",
@@ -53,7 +62,10 @@
     "solution": "CropGen recommends optimal varieties using soil, climate, and genomic matching.",
     "impact": "22% average yield improvement across 4,500 Gujarat farms.",
     "website": "https://cropgenapp.com",
-    "odSite": "https://www.cropgenapp.com/projects/operation-dronagiri"
+    "odSite": "https://www.cropgenapp.com/projects/operation-dronagiri",
+    "pilotCity": "Ahmedabad",
+    "lat": 23.0225,
+    "lng": 72.5714
   },
   {
     "id": "srajanai",
@@ -67,7 +79,10 @@
     "solution": "SrajanAI delivers vernacular AI crop recommendations using satellite and field data.",
     "impact": "Serving 5,000+ farmers across western Maharashtra pilot corridors.",
     "website": "https://srajanai.com",
-    "odSite": "https://srajanai.com/operation-dronagiri"
+    "odSite": "https://srajanai.com/operation-dronagiri",
+    "pilotCity": "Nashik",
+    "lat": 19.9975,
+    "lng": 73.7898
   },
   {
     "id": "terrastack",
@@ -81,7 +96,10 @@
     "solution": "Terrastack provides rapid DEM processing and cut-fill optimization.",
     "impact": "Saved 18% earthwork costs on 3 national highway segments.",
     "website": "https://terrastack.in",
-    "odSite": null
+    "odSite": null,
+    "pilotCity": "Mundra",
+    "lat": 22.746,
+    "lng": 69.7
   },
   {
     "id": "sparkyai",
@@ -95,7 +113,10 @@
     "solution": "SparkyAI uses psychometric and market data to create personalized career roadmaps.",
     "impact": "Guided 9,000 students with 62% achieving first job within 6 months.",
     "website": "https://sparkyai.in",
-    "odSite": "https://sparky-ai-operation-dronagiri.vercel.app/"
+    "odSite": "https://sparky-ai-operation-dronagiri.vercel.app/",
+    "pilotCity": "Pune",
+    "lat": 18.5204,
+    "lng": 73.8567
   },
   {
     "id": "viasalus",
@@ -109,7 +130,10 @@
     "solution": "Via Salus connects communities to telehealth and preventive care programs.",
     "impact": "Serving households across Andhra Pradesh pilot blocks.",
     "website": "https://viasalus.in",
-    "odSite": "https://viasalus.in/products/OperationDronagiri.html"
+    "odSite": "https://viasalus.in/products/OperationDronagiri.html",
+    "pilotCity": "Vijayawada",
+    "lat": 16.5062,
+    "lng": 80.648
   },
   {
     "id": "thazal",
@@ -123,7 +147,10 @@
     "solution": "Thazhal delivers end-to-end geospatial intelligence and mapping services.",
     "impact": "Active projects across Tamil Nadu coastal and inland corridors.",
     "website": "https://thazhal.in",
-    "odSite": "https://thazhal.in/swoad-2-2/"
+    "odSite": "https://thazhal.in/swoad-2-2/",
+    "pilotCity": "Chennai",
+    "lat": 13.0827,
+    "lng": 80.2707
   },
   {
     "id": "geoinfy",
@@ -137,7 +164,10 @@
     "solution": "GeoInfy digitizes and monitors infrastructure assets on a cloud GIS platform.",
     "impact": "10,000+ assets digitized across Hyderabad metro region.",
     "website": "https://www.geoinfy.com",
-    "odSite": null
+    "odSite": "https://www.geoinfy.com/dronagiri.html",
+    "pilotCity": "Hyderabad (Manikonda)",
+    "lat": 17.4064,
+    "lng": 78.3796
   },
   {
     "id": "encode-nature",
@@ -151,7 +181,10 @@
     "solution": "Encode Nature trains communities in eco-restoration and nature-positive enterprises.",
     "impact": "3,200 youth trained across Telangana forest-fringe communities.",
     "website": "https://www.encodenature.com",
-    "odSite": "https://encodenature.com/dronagiri.html"
+    "odSite": "https://encodenature.com/dronagiri.html",
+    "pilotCity": "Warangal",
+    "lat": 17.9784,
+    "lng": 79.5941
   },
   {
     "id": "eelab-carbon",
@@ -164,9 +197,11 @@
     "problemSolved": "Farmers cannot access carbon markets due to lack of measurement tools.",
     "solution": "EELAB CARBON quantifies farm-level carbon sequestration for credit trading.",
     "impact": "Registered 3,000 farms for carbon credit programs in Gujarat.",
-    "website": null,
-    "websiteStatus": "under_development",
-    "odSite": "https://eelabcarbon.com/dronagiri.php"
+    "website": "https://eelabcarbon.com/index.php",
+    "odSite": "https://eelabcarbon.com/dronagiri.php",
+    "pilotCity": "Gandhinagar",
+    "lat": 23.2156,
+    "lng": 72.6369
   },
   {
     "id": "weathercast",
@@ -179,8 +214,11 @@
     "problemSolved": "Unpredictable weather patterns cause poor sowing and harvest decisions.",
     "solution": "WeatherCast provides village-level forecasts integrated with crop calendars.",
     "impact": "Improved sowing decisions for 8,000 farmers in Karnataka.",
-    "website": null,
-    "odSite": null
+    "website": "https://www.weathercastsolutions.com/",
+    "odSite": null,
+    "pilotCity": "Mysuru",
+    "lat": 12.2958,
+    "lng": 76.6394
   },
   {
     "id": "kisan-rover",
@@ -193,8 +231,13 @@
     "problemSolved": "Manual field scouting is slow and labor-intensive for large farms.",
     "solution": "Kisan Rover deploys AI rovers for automated field monitoring and alerts.",
     "impact": "Reduced scouting time by 70% across 200 commercial farms.",
-    "website": "https://www.kisanrover.com",
-    "odSite": null
+    "website": null,
+    "websiteStatus": "coming_soon",
+    "odSite": null,
+    "odSiteStatus": "coming_soon",
+    "pilotCity": "Kolhapur",
+    "lat": 16.705,
+    "lng": 74.2433
   },
   {
     "id": "polygon-geospatial",
@@ -208,7 +251,10 @@
     "solution": "Polygon Geospatial delivers drone-LiDAR surveys with BIM-ready outputs.",
     "impact": "Surveyed 450 km of urban corridors in Bengaluru.",
     "website": "https://polygongeo.com",
-    "odSite": "https://polygongeo.com/OperationDronagiri.html"
+    "odSite": "https://polygongeo.com/OperationDronagiri.html",
+    "pilotCity": "Bengaluru",
+    "lat": 12.9784,
+    "lng": 77.6408
   },
   {
     "id": "navariti",
@@ -222,7 +268,10 @@
     "solution": "Navariti delivers industry-aligned bootcamps with employer partnerships.",
     "impact": "4,200 graduates placed in tech and manufacturing roles.",
     "website": null,
-    "odSite": null
+    "odSite": null,
+    "pilotCity": "Secunderabad",
+    "lat": 17.4399,
+    "lng": 78.4983
   },
   {
     "id": "oxbow",
@@ -236,7 +285,10 @@
     "solution": "Oxbow simulates watershed dynamics for resilient infrastructure design.",
     "impact": "Flood risk mapped for 8 river corridors in Maharashtra.",
     "website": "https://oxbowintellect.com",
-    "odSite": "https://oxbowintellect.com/oxland-agri/"
+    "odSite": "https://oxbowintellect.com/oxland-agri/",
+    "pilotCity": "Nagpur",
+    "lat": 21.1458,
+    "lng": 79.0882
   },
   {
     "id": "addble",
@@ -250,6 +302,9 @@
     "solution": "Addble uses geocoding AI and dynamic routing for reliable last-mile delivery.",
     "impact": "96% delivery success rate across 15 Karnataka districts.",
     "website": "https://addble.com",
-    "odSite": "https://addble.com/operation-dronagiri"
+    "odSite": "https://addble.com/operation-dronagiri",
+    "pilotCity": "Hubballi",
+    "lat": 15.3647,
+    "lng": 75.124
   }
 ]

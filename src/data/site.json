@@ -92,9 +92,16 @@
     }
   },
   "contact": {
-    "address": "Operation Dronagiri Mission Office, Innovation Tower, Electronic City Phase 1, Bengaluru, Karnataka 560100",
-    "email": "mission@dronagiri.gov.in",
-    "phone": "+91 80 4567 8900",
+    "title": "Contact Info",
+    "addressLines": [
+      "IIT Tirupati Navavishhkar I- Hub Foundation,",
+      "Yerpedu-Venkatagiri Road,",
+      "Yerpedu Post,",
+      "Tirupati District,",
+      "Andhra Pradesh - 517 619."
+    ],
+    "email": "od@iittnif.com",
+    "phone": "+91 91547 46805",
     "hours": "Monday – Friday: 9:00 AM – 6:00 PM IST",
     "social": {
       "twitter": "https://twitter.com/OpDronagiri",

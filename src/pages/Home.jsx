@@ -4,10 +4,11 @@ import { GiMountainCave } from 'react-icons/gi'
 import { FiTarget, FiEye, FiMapPin, FiArrowRight, FiExternalLink } from 'react-icons/fi'
 import { HiOutlineChip, HiOutlineGlobe } from 'react-icons/hi'
 import StatsDashboard from '../components/ui/StatsDashboard'
+import StartupLinks from '../components/ui/StartupLinks'
 import IndiaMap, { SECTOR_COLORS } from '../components/map/IndiaMap'
 import AnimatedCounter from '../components/ui/AnimatedCounter'
 import siteData from '../data/site.json'
-import startupsData from '../data/startups.json'
+import { mapStartups, getStartupCountsBySector } from '../utils/mapStartups'
 import partnersData from '../data/partners.json'
 import statesData from '../data/states.json'
 import sectorsData from '../data/sectors.json'
@@ -21,14 +22,11 @@ export default function Home() {
 
   const activeSectors = selectedSector ? [selectedSector] : SECTOR_IDS
 
-  const sectorCounts = SECTOR_IDS.reduce((acc, id) => {
-    acc[id] = startupsData.filter((s) => s.sectorId === id).length
-    return acc
-  }, {})
+  const sectorCounts = getStartupCountsBySector()
 
   const visibleStartups = useMemo(() => {
-    if (!selectedSector) return startupsData
-    return startupsData.filter((s) => s.sectorId === selectedSector)
+    if (!selectedSector) return mapStartups
+    return mapStartups.filter((s) => s.sectorId === selectedSector)
   }, [selectedSector])
 
   const handleSectorClick = (id) => {
@@ -39,6 +37,10 @@ export default function Home() {
   const showAllSectors = () => {
     setSelectedSector(null)
     setSelectedStartup(null)
+  }
+
+  const selectStartup = (startup) => {
+    setSelectedStartup(startup)
   }
 
   return (
@@ -194,7 +196,7 @@ export default function Home() {
                   const meta = SECTOR_COLORS[sector.id]
                   const isSelected = selectedSector === sector.id
                   const isActive = !selectedSector || isSelected
-                  const sectorStartups = startupsData.filter((s) => s.sectorId === sector.id)
+                  const sectorStartups = mapStartups.filter((s) => s.sectorId === sector.id)
                   return (
                     <button
                       key={sector.id}
@@ -215,7 +217,7 @@ export default function Home() {
                         />
                         <div className="flex-1 min-w-0">
                           <p className="text-sm font-semibold text-primary">
-                            Level {meta.level} · {sector.name}
+                            {sector.name}
                           </p>
                           <p className="text-xs text-slate-500 truncate">{sector.tagline}</p>
                         </div>
@@ -237,14 +239,26 @@ export default function Home() {
                               {sectorStartups.map((s) => (
                                 <div
                                   key={s.id}
-                                  onClick={(e) => { e.stopPropagation(); setSelectedStartup(s) }}
-                                  className="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50 cursor-pointer"
+                                  onClick={(e) => { e.stopPropagation(); selectStartup(s) }}
+                                  className={`flex items-center gap-2 p-2 rounded-lg cursor-pointer transition-colors ${
+                                    selectedStartup?.id === s.id
+                                      ? 'bg-cyan-50 ring-1 ring-secondary/30'
+                                      : 'hover:bg-slate-50'
+                                  }`}
                                 >
-                                  <img src={s.logo} alt="" className="w-7 h-7 rounded-md" />
+                                  {s.logo ? (
+                                    <img src={encodeURI(s.logo)} alt="" className="w-7 h-7 rounded-md object-contain" />
+                                  ) : (
+                                    <span className="w-7 h-7 rounded-md bg-slate-100 flex items-center justify-center text-[10px] font-bold text-secondary shrink-0">
+                                      {s.name.slice(0, 2).toUpperCase()}
+                                    </span>
+                                  )}
                                   <div className="min-w-0 flex-1">
                                     <p className="text-xs font-semibold text-primary truncate">{s.name}</p>
-                                    <p className="text-[10px] text-slate-400 flex items-center gap-0.5">
-                                      <FiMapPin className="w-2.5 h-2.5" /> {s.pilotState}
+                                    <p className="text-[10px] text-slate-400 flex items-center gap-1">
+                                      <span className="font-medium text-secondary/80">{s.cohort}</span>
+                                      <span>·</span>
+                                      <FiMapPin className="w-2.5 h-2.5" /> {s.pilotCity ? `${s.pilotCity}, ` : ''}{s.pilotState}
                                     </p>
                                   </div>
                                 </div>
@@ -282,7 +296,7 @@ export default function Home() {
                             className="w-10 h-10 rounded-lg flex items-center justify-center text-white text-sm font-bold shrink-0"
                             style={{ backgroundColor: meta.color }}
                           >
-                            L{meta.level}
+                            {sector.name.slice(0, 1)}
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-semibold text-primary">{sector.name}</p>
@@ -304,16 +318,35 @@ export default function Home() {
                 style={{ borderColor: SECTOR_COLORS[selectedStartup.sectorId]?.color }}
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <img src={selectedStartup.logo} alt="" className="w-10 h-10 rounded-lg" />
+                  {selectedStartup.logo ? (
+                    <img src={encodeURI(selectedStartup.logo)} alt="" className="w-10 h-10 rounded-lg object-contain" />
+                  ) : (
+                    <span className="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center text-sm font-bold text-secondary">
+                      {selectedStartup.name.slice(0, 2).toUpperCase()}
+                    </span>
+                  )}
                   <div>
                     <h4 className="font-bold text-primary">{selectedStartup.name}</h4>
                     <p className="text-xs" style={{ color: SECTOR_COLORS[selectedStartup.sectorId]?.color }}>
-                      Level {SECTOR_COLORS[selectedStartup.sectorId]?.level} · {selectedStartup.sector}
+                      {selectedStartup.cohort} · {selectedStartup.sector}
                     </p>
                   </div>
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed">{selectedStartup.description}</p>
-                <p className="text-xs text-slate-400 mt-2">{selectedStartup.pilotState}</p>
+                <p className="text-xs text-slate-400 mt-2 flex items-center gap-1">
+                  <FiMapPin className="w-3 h-3" /> {selectedStartup.pilotCity ? `${selectedStartup.pilotCity}, ` : ''}{selectedStartup.pilotState}
+                </p>
+                <div className="mt-4 pt-3 border-t border-slate-100">
+                  <StartupLinks
+                    website={selectedStartup.website}
+                    websiteLabel={selectedStartup.websiteLabel}
+                    websiteStatus={selectedStartup.websiteStatus}
+                    odSite={selectedStartup.odSite}
+                    odSiteLabel={selectedStartup.odSiteLabel}
+                    odSiteStatus={selectedStartup.odSiteStatus}
+                    compact
+                  />
+                </div>
               </motion.div>
             )}
           </div>
@@ -325,7 +358,7 @@ export default function Home() {
                 <p className="text-sm text-slate-500">
                   {selectedSector
                     ? `Showing ${SECTOR_COLORS[selectedSector].label} · ${visibleStartups.length} startups`
-                    : `All 3 sectors · ${startupsData.length} startups`}
+                    : `All 3 sectors · ${mapStartups.length} startups`}
                 </p>
               </div>
               <div className="flex flex-wrap gap-2">
@@ -352,7 +385,7 @@ export default function Home() {
                       className="w-2.5 h-2.5 rounded-full"
                       style={{ backgroundColor: selectedSector === id ? 'white' : SECTOR_COLORS[id].color }}
                     />
-                    L{SECTOR_COLORS[id].level}
+                    {SECTOR_COLORS[id].label.split(' ')[0]}
                   </button>
                 ))}
               </div>
@@ -360,14 +393,15 @@ export default function Home() {
 
             <IndiaMap
               states={statesData}
-              startups={startupsData}
+              startups={visibleStartups}
               partners={partnersData}
               showStartups
               showPartners={!selectedSector}
               showStates={!selectedSector}
               colorBySector
               activeSectors={activeSectors}
-              onStartupClick={setSelectedStartup}
+              focusedStartupId={selectedStartup?.id}
+              onStartupClick={selectStartup}
               height="520px"
               zoom={selectedSector ? 5.5 : 5}
               className="flex-1 shadow-2xl min-h-[480px] lg:min-h-[560px]"
@@ -397,30 +431,10 @@ export default function Home() {
                   <div className="text-2xl font-bold" style={{ color: SECTOR_COLORS[id].color }}>
                     <AnimatedCounter value={sectorCounts[id]} />
                   </div>
-                  <p className="text-xs text-slate-500 mt-1">L{SECTOR_COLORS[id].level} · {SECTOR_COLORS[id].label.split(' ')[0]}</p>
+                  <p className="text-xs text-slate-500 mt-1">{SECTOR_COLORS[id].label.split(' ')[0]}</p>
                 </button>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="border-t border-slate-200 bg-white py-8">
-        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-lg font-bold text-primary mb-4">Corporate Partners · Vizianagaram</h3>
-          <div className="flex flex-wrap gap-3">
-            {partnersData.map((p) => (
-              <div key={p.id} className="flex items-center gap-2 px-4 py-2 rounded-xl bg-surface border border-slate-200">
-                {p.logo ? (
-                  <img src={p.logo} alt={p.name} className="w-8 h-8 rounded-lg object-contain" />
-                ) : (
-                  <span className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-xs font-bold text-secondary">
-                    {p.name.slice(0, 2).toUpperCase()}
-                  </span>
-                )}
-                <span className="text-sm font-medium text-primary">{p.name}</span>
-              </div>
-            ))}
           </div>
         </div>
       </section>

@@ -47,7 +47,7 @@ export default function SectorDetailPage() {
             <div className={`absolute inset-0 bg-gradient-to-r ${sector.color} opacity-75`} />
             <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-10 text-white">
               <span className="text-xs font-bold uppercase tracking-widest text-white/80 mb-2">
-                Level {meta.level} · Focus Sector
+                Focus Sector
               </span>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">{sector.name}</h1>
               <p className="text-white/90 mt-2 max-w-2xl text-base sm:text-lg">{sector.tagline}</p>
@@ -95,12 +95,6 @@ export default function SectorDetailPage() {
         </div>
 
         <section>
-          <span
-            className="inline-block px-3 py-1 rounded-full text-xs font-bold mb-3 text-white"
-            style={{ backgroundColor: meta.color }}
-          >
-            Level {meta.level}
-          </span>
           <h2 className="text-2xl font-bold text-primary mb-1">
             Startups in {sector.name}
           </h2>

@@ -25,19 +25,33 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-white font-semibold mb-4">Contact</h4>
-            <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-2">
-                <FiMapPin className="w-4 h-4 mt-0.5 text-accent shrink-0" />
-                <span>{contact.address}</span>
+            <h4 className="text-white font-bold text-xl mb-5">{contact.title || 'Contact Info'}</h4>
+            <ul className="space-y-4 text-sm">
+              <li className="flex items-start gap-3">
+                <span className="w-9 h-9 rounded-full border border-accent/40 flex items-center justify-center shrink-0 mt-0.5">
+                  <FiMapPin className="w-4 h-4 text-accent" />
+                </span>
+                <address className="not-italic text-accent/90 leading-relaxed">
+                  {contact.addressLines?.map((line) => (
+                    <span key={line} className="block">{line}</span>
+                  )) || contact.address}
+                </address>
               </li>
-              <li className="flex items-center gap-2">
-                <FiMail className="w-4 h-4 text-accent" />
-                <a href={`mailto:${contact.email}`} className="hover:text-accent transition-colors">{contact.email}</a>
+              <li className="flex items-center gap-3">
+                <span className="w-9 h-9 rounded-full border border-accent/40 flex items-center justify-center shrink-0">
+                  <FiPhone className="w-4 h-4 text-accent" />
+                </span>
+                <a href={`tel:${contact.phone.replace(/\s/g, '')}`} className="text-white hover:text-accent transition-colors">
+                  {contact.phone}
+                </a>
               </li>
-              <li className="flex items-center gap-2">
-                <FiPhone className="w-4 h-4 text-accent" />
-                <span>{contact.phone}</span>
+              <li className="flex items-center gap-3">
+                <span className="w-9 h-9 rounded-full border border-accent/40 flex items-center justify-center shrink-0">
+                  <FiMail className="w-4 h-4 text-accent" />
+                </span>
+                <a href={`mailto:${contact.email}`} className="text-white hover:text-accent transition-colors">
+                  {contact.email}
+                </a>
               </li>
             </ul>
           </div>

@@ -82,12 +82,19 @@ export default function Modal({ isOpen, onClose, startup }) {
                 <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
                   <StartupLinks
                     website={startup.website}
+                    websiteLabel={startup.websiteLabel}
                     websiteStatus={startup.websiteStatus}
                     odSite={startup.odSite}
+                    odSiteLabel={startup.odSiteLabel}
+                    odSiteStatus={startup.odSiteStatus}
                   />
                 </div>
                 <div className="flex flex-wrap gap-3 justify-end">
-                  {startup.websiteStatus === 'under_development' ? (
+                  {startup.websiteStatus === 'coming_soon' ? (
+                    <span className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-100 text-slate-500 rounded-xl text-sm font-medium">
+                      Official site — coming soon
+                    </span>
+                  ) : startup.websiteStatus === 'under_development' ? (
                     <span className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-100 text-slate-500 rounded-xl text-sm font-medium">
                       Official site under development
                     </span>
@@ -98,10 +105,14 @@ export default function Modal({ isOpen, onClose, startup }) {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-5 py-2.5 bg-secondary text-white rounded-xl hover:bg-primary transition-colors text-sm font-medium"
                     >
-                      Official site <FiExternalLink className="w-4 h-4" />
+                      {startup.websiteLabel || 'Official site'} <FiExternalLink className="w-4 h-4" />
                     </a>
                   ) : null}
-                  {startup.odSite ? (
+                  {startup.odSiteStatus === 'coming_soon' ? (
+                    <span className="inline-flex items-center gap-2 px-5 py-2.5 border border-slate-200 text-slate-400 rounded-xl text-sm">
+                      Operation Dronagiri — coming soon
+                    </span>
+                  ) : startup.odSite ? (
                     <a
                       href={startup.odSite}
                       target="_blank"
